@@ -233,11 +233,12 @@ strong {
 }
 
 .custom-bg-primary {
-  background: var(--primary-color);
+  background: var(--secondary-color);
 }
 
 .custom-bg-primary:hover {
-  background: var(--white-color);
+  /* background: var(--white-color); */
+  background: #800020c0;
   color: var(--dark-color);
 }
 
