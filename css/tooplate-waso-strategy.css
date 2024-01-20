@@ -14,7 +14,7 @@ Free Bootstrap 5 HTML Template
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
-  --primary-color:                #f9c10b; 
+  --primary-color:                #bda6a6; 
   --secondary-color:              #800020;
   --section-bg-color:             #f5f5f5;
   --dark-color:                   #000000;
@@ -133,7 +133,7 @@ a:hover {
 
 .section-hero ::selection,
 .bg-warning ::selection {
-  background: #f9d55c;
+  background: #bda6a6;
 }
 
 .section-padding {
@@ -219,7 +219,7 @@ strong {
   CUSTOM BUTTON               
 -----------------------------------------*/
 .custom-btn {
-  background: var(--secondary-color);
+  background-color: #79273b;
   border-radius: 100px;
   color: var(--white-color);
   font-size: var(--copyright-text-font-size);
@@ -605,8 +605,8 @@ strong {
 }
 
 .projects-small-title {
-  color: var(--primary-color);
-  text-transform: uppercase;
+  color: var(--white-color);
+  /* text-transform: uppercase; */
 }
 
 .projects-title {
@@ -656,7 +656,7 @@ strong {
 }
 
 .contact-icon {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-size: var(--h4-font-size);
 }
 
@@ -683,17 +683,25 @@ strong {
   box-shadow: none;
   border-radius: 0;
   border: 0;
-  border-bottom: 3px solid var(--section-bg-color);
+  border-bottom: 1px solid var(--secondary-color);
   margin-bottom: 24px;
   padding-top: 13px;
   padding-bottom: 13px;
   transition: all 0.3s;
   outline: none;
+  
+}
+
+.form-control::placeholder{
+  /* color: var(--secondary-color); */
+  color: black;
+  font-style: italic;
+  opacity: .5;
 }
 
 .custom-form .form-control:hover,
 .custom-form .form-control:focus {
-  background: var(--white-color);
+  background: var(--primary-color);
 }
 
 .custom-form button[type="submit"] {
@@ -708,9 +716,12 @@ strong {
 
 .custom-form button[type="submit"]:hover,
 .custom-form button[type="submit"]:focus {
-  background: var(--white-color);
+  /* background: var(--white-color); */
+  background: #800020c0;
   color: var(--dark-color);
 }
+
+
 
 
 /*---------------------------------------
@@ -759,6 +770,12 @@ strong {
 .social-icon-link:hover {
   color: var(--primary-color);
 }
+
+path {
+  fill: #bda6a6;
+ 
+}
+
 
 
 /*---------------------------------------
